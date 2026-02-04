@@ -16,7 +16,7 @@ def ejecutar_consulta():
         # 3. Llamada directa al servicio de modelos
         response = client.models.generate_content(
             model="gemini-3-flash-preview",
-            contents="Preséntate brevemente como un asistente de IA configurado para apoyar el curso de 'Desarrollo de aplicaciones con IA.'"
+            contents="Eres un pirata legendario. Describe tu barco en 3 palabras y explica detalladamente por qué elegiste cada una, incluyendo anécdotas de tus aventuras."
         )
         print("\n--- Respuesta Recibida ---")
         print(response.text)
