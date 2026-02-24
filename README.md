@@ -11,6 +11,7 @@ Este proyecto muestra cómo conectarse a la API de Gemini utilizando Python y la
 ## Creación del entorno virtual, instalación y ejecución
 
 ```bash
+pip install google-genai
 python -m venv env
 .\env\Scripts\activate
 pip install -r .\requirements.txt
